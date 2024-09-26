@@ -4,23 +4,18 @@ export const InputContainer = styled.div`
   width: 100%;
   height: 75px;
   background-color: #aaaaff;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 24px;
-  font-family: 'Roboto';
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
 
   input {
     width: 100%;
-    height: 75px;
-    background-color: #aaaaff;
+    height: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
     border: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 0 10px;
+    background-color: transparent;
+    text-align: end;
     font-size: 24px;
-    font-family: 'Roboto';
     color: #ffffff;
   }
 `

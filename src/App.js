@@ -62,8 +62,8 @@ const App = () => {
         <Input value={currentNumber} />
         <Row>
           <Button label="x" />
-          <Button label="/" />
-          <Button label="c" onClick={handleOnClear} />
+          <Button label="%" />
+          <Button label="C" onClick={handleOnClear} />
           <Button label="." />
         </Row>
         <Row>
