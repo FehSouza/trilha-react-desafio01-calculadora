@@ -9,6 +9,24 @@ export const Container = styled.div`
   justify-content: center;
 `
 
+export const Result = styled.div`
+  width: 100%;
+  height: 80px;
+  background-color: #1e90ff;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+`
+
+export const OldValue = styled.span`
+  min-height: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0 16px;
+  color: #ffffff;
+  font-size: 14px;
+`
+
 export const Content = styled.div`
   width: 50%;
   max-width: 300px;

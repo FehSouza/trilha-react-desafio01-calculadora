@@ -2,9 +2,8 @@ import styled from 'styled-components'
 
 export const InputContainer = styled.div`
   width: 100%;
-  height: 75px;
-  background-color: #aaaaff;
-  border: 1px solid #cdcdcd;
+  height: 50px;
+  background-color: #1e90ff;
   box-sizing: border-box;
 
   input {
